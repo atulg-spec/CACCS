@@ -56,23 +56,9 @@ An integrated, AI-driven platform that provides end-to-end cryptocurrency intell
 - **Audit Trail**: Comprehensive logging of all activities
 
 ## 🧩 Proposed System Architecture
-┌─────────────────┐ ┌──────────────────┐ ┌─────────────────────┐
-│ DATA │ │ DATA │ │ AI ANALYSIS │
-│ COLLECTION │───▶│ PIPELINE │───▶│ ENGINE │
-│ ENGINE │ │ (Kafka) │ │ │
-└─────────────────┘ └──────────────────┘ └─────────────────────┘
-│ │ │
-│ │ │
-▼ ▼ ▼
-┌─────────────────┐ ┌──────────────────┐ ┌─────────────────────┐
-│ DATA │ │ DATABASE │ │ VISUALIZATION │
-│ PROCESSING │ │ MANAGEMENT │ │ DASHBOARD │
-│ & CLEANING │ │ SYSTEM │ │ │
-└─────────────────┘ └──────────────────┘ └─────────────────────┘
+![Proposed Solution Flow](https://raw.githubusercontent.com/atulg-spec/CACCS/refs/heads/main/assets/solution-flow.png)
 
-text
-
-### 7 Core Components:
+### Core Components:
 1. **Data Collection Engine** - Multi-source web scraping
 2. **Data Pipeline (Kafka)** - Real-time data streaming
 3. **Data Processing Module** - Cleaning and normalization
@@ -82,6 +68,8 @@ text
 7. **Continuous Learning** - Model improvement through feedback
 
 ## ⚙️ Proposed Technology Stack
+
+![Proposed Solution Technical Flow](https://raw.githubusercontent.com/atulg-spec/CACCS/refs/heads/main/assets/technical-flow.png)
 
 ### **Backend & Core**
 - **Python 3.9+**: Primary development language
